@@ -2,7 +2,7 @@
 
 ## Aims
 
-Build out-of-the-box network infrastructure, covering three to seven network programming environments
+Build out-of-the-box network infrastructure, covering three to seven network programming environments.
 
 ## Contents
 
@@ -24,4 +24,4 @@ Build out-of-the-box network infrastructure, covering three to seven network pro
 - Each codebase has key examples to demonstrate.
 - Each codebase can timely feedback issues and fix bugs.
 - Each codebase has maintainers.
-- Documentation and website are available in Chinese and English
+- Documentation and website are available in Chinese and English.
