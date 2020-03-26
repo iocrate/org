@@ -6,11 +6,11 @@
 
 ## 内容
 
-- [ ] 准备使用 asyncdispatch 作为基础 io 引擎，不使用 asyncnet、asynchttpserver、httpclient、net；使用 nativesockets。建立一个 io 框架，包含 net 模块 (tcp socket 和 tcp server)、datagram 模块 (udp socket)、tls 模块 (tls tcp socker 和 tls tcp server)、http 模块 (HTTP client、HTTP server)、https 模块 (tls http client 和 tls http server)、裁剪测试优化 asyncdispatch、websocket 模块；
+- [ ] 准备使用 asyncdispatch 作为基础 io 引擎，不使用 asyncnet、asynchttpserver、httpclient、net；使用 nativesockets。建立一个 io 框架，包含 net 模块 (tcp socket 和 tcp server)、datagram 模块 (udp socket)、tls 模块 (tls tcp socket 和 tls tcp server)、http 模块 (HTTP client、HTTP server)、https 模块 (tls http client 和 tls http server)、裁剪测试优化 asyncdispatch、websocket 模块；
 
 - [ ] 建立 http 工具包 cookie、session (简单测试环境)、formdata、openauth、jwt；建立 mysql、postgresql、mongodb、redis 等主流数据库连接器，支持常规请求查询、数据流、超大结果数据集、连接池
 
-- [ ] 建立 high-level web server 框架，支持 ioc、aop/intecepter、valadation、logging、testing、mocking？ (spring-boot/mvc style)
+- [ ] 建立 high-level web server 框架，支持 ioc、aop/interceptor、valadation、logging、testing、mocking？ (spring-boot/mvc style)
 
 - [ ] 建立 high-level sql framework 依赖注入框架
 
@@ -29,7 +29,7 @@
 - 每个代码库有 api documentation
 - 每个代码库有 step by step 的使用说明
 - 有关键例子演示说明
-- 每个代码库能及时反馈 issures 以及修复 bugs
+- 每个代码库能及时反馈 issues 以及修复 bugs
 - 每个代码库有维护者
 - 文档和网站有中文和英文两个版本
 
