@@ -8,7 +8,9 @@
 
 - [ ] 准备使用 asyncdispatch 作为基础 io 引擎，不使用 asyncnet、asynchttpserver、httpclient、net；使用 nativesockets。建立一个 io 框架，包含 net 模块 (tcp socket 和 tcp server)、datagram 模块 (udp socket)、tls 模块 (tls tcp socket 和 tls tcp server)、http 模块 (HTTP client、HTTP server)、https 模块 (tls http client 和 tls http server)、裁剪测试优化 asyncdispatch、websocket 模块；
 
-- [ ] 建立 http 工具包 cookie、session (简单测试环境)、formdata、openauth、jwt；建立 mysql、postgresql、mongodb、redis 等主流数据库连接器，支持常规请求查询、数据流、超大结果数据集、连接池
+- [ ] 建立 http 工具包 cookie、session (简单测试环境)、formdata、openauth、jwt
+
+- [ ] 建立 mysql、postgresql、mongodb、redis 等主流数据库连接器，支持常规请求查询、数据流、超大结果数据集、连接池
 
 - [ ] 建立 high-level web server 框架，支持 ioc、aop/interceptor、valadation、logging、testing、mocking？ (spring-boot/mvc style)
 
