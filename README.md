@@ -10,7 +10,7 @@
 
 - [ ] 建立 http 工具包 cookie、session (简单测试环境)、formdata、openauth、jwt
 
-- [] 建立 mysql、postgresql、mongodb、redis 等主流数据库连接器，支持常规请求查询、数据流、超大结果数据集、连接池
+- [ ] 建立 mysql、postgresql、mongodb、redis 等主流数据库连接器，支持常规请求查询、数据流、超大结果数据集、连接池
 
 - [ ] 建立 high-level web server 框架，支持 ioc、aop/intecepter、valadation、logging、testing、mocking？ (spring-boot/mvc style)
 
